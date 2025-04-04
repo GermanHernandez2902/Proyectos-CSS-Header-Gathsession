@@ -7,6 +7,7 @@ Desarrollada con Vite, Sass y JavaScript, esta web ofrece una interfaz moderna, 
 ---
 
 🚀 Tecnologías Utilizadas
+
 Vite ⚡: Herramienta de construcción rápida para proyectos web.
 
 Sass 🎨: Preprocesador CSS para estilos más organizados y escalables.
@@ -18,10 +19,15 @@ HTML5 & CSS3 ✨: Estructura semántica y estilos avanzados.
 ---
 
 📌 Características Principales
+
 ✅ Diseño moderno y atractivo
+
 ✅ Totalmente responsivo 📱
+
 ✅ Menú de navegación interactivo
+
 ✅ Uso de variables y mixins en Sass
+
 ✅ Optimización con Vite para mejor rendimiento
 
 ---
@@ -36,5 +42,4 @@ Si deseas mejorar este proyecto, ¡eres bienvenido! Puedes hacer un fork del rep
 
 ---
 
-📌 Licencia
-Este proyecto es de uso libre. Siéntete libre de adaptarlo y mejorarlo según tus necesidades. 🚀
+📌 Licencia Este proyecto es de uso libre. Siéntete libre de adaptarlo y mejorarlo según tus necesidades. 🚀
