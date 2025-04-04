@@ -1,6 +1,7 @@
 🎭 GathSession - Landing Page
 Bienvenido a la landing page de GathSession, una plataforma para construir comunidades, compartir eventos y obtener información clave.
 Desarrollada con Vite, Sass y JavaScript, esta web ofrece una interfaz moderna, responsiva e interactiva para conectar personas de manera efectiva.
+
 ![image](https://github.com/user-attachments/assets/57942684-3be7-4d7a-b522-977498fcc833)
 
 ---
