@@ -1,0 +1,65 @@
+@use '../abstracts/abstracts' as var;
+@use '../abstracts/abstracts' as mixin;
+
+header {
+    padding-top: 1rem;
+    margin-bottom: 3rem;
+
+    
+
+    @include mixin.breakpoint(desktop) {
+        margin-bottom: 6rem;
+        padding-top: 2rem;
+    }
+
+    .container {
+        display: flex;
+        gap: 1rem;
+
+        @include mixin.breakpoint(tablet) {
+            justify-content: space-between;
+        }
+    }
+
+    img {
+        width: 120px;
+        @include mixin.breakpoint(tablet) {
+            width: 235px;
+        }
+    }
+
+    ul {
+
+        @include mixin.reset-list();
+
+        @include mixin.breakpoint(tablet) {
+            position: relative;
+            &::before{
+                content: '';
+                position: absolute;
+                width: 32px;
+                height: 4px;
+                background-color: var.$pink;
+                bottom: -8px;
+                left: 0;
+            }
+        }
+
+        a {
+            text-decoration: none;
+            color: var.$white;
+            &:hover {
+                position: relative;
+                &::before{
+                    content: '';
+                    position: absolute;
+                    width: 32px;
+                    height: 4px;
+                    background-color: var.$pink;
+                    bottom: -8px;
+                    left: 0;
+                }
+            }
+        }
+    }
+}
